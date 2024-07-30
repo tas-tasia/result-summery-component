@@ -13,20 +13,19 @@ body {
   width: 100%;
   background-color: white;
   border-radius: 30px;
-  position: relative;
+  display: flex;
 }
 .box1 {
-  position: absolute;
   background: linear-gradient(#7755ff, #6943ff, #2f2ce9);
   width: 50%;
   height: 100%;
   border-radius: 30px;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
 }
 .oval {
-  position: absolute;
   background: linear-gradient(
     180deg,
     #4d21c9 0%,
@@ -37,7 +36,6 @@ body {
   border-radius: 100%;
   width: 200px;
   height: 200px;
-  top: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,7 +44,8 @@ body {
 .title2 {
   font-size: 24px;
   color: #cac9ff;
-  padding: 20px 0 220px 0;
+  padding: 20px 0 40px 0;
+  margin: 0;
 }
 .title3 {
   font-size: 32px;
@@ -70,7 +69,6 @@ body {
   margin: 0;
 }
 .box2 {
-  position: absolute;
   width: 50%;
   height: 100%;
   right: 0;
@@ -161,7 +159,6 @@ button:hover {
   .box2 {
     width: 100%;
     height: auto;
-    position: relative;
   }
 
   .box1 {
@@ -176,10 +173,6 @@ button:hover {
     width: 140px;
     height: 140px;
     top: 100px;
-  }
-
-  .title2 {
-    padding: 20px 0 150px 0;
   }
 
   .info {
@@ -204,3 +197,4 @@ button:hover {
     margin: 20px 0;
   }
 }
+
